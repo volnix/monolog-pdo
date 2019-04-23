@@ -1,0 +1,26 @@
+{
+	"name": "volnix/monolog-pdo",
+	"description": "Simple PDO-based Monolog handler.  This will create a Laravel migration upon installation if you're using Laravel (you probably are).",
+	"license": "MIT",
+	"homepage": "https://github.com/volnix/monolog-handlers",
+	"authors": [
+		{
+			"name": "Nick Volgas",
+			"email": "nvolgas@ark.org"
+		}
+	],
+	"autoload": {
+        "psr-4": {
+            "volnix\\Monolog\\": "src/"
+        }
+    },
+    "require": {
+	  "php": ">= 5.1.0",
+		"monolog/monolog": "^2.0@dev"
+    },
+    
+    "minimum-stability": "dev",
+	"require-dev": {
+		"phpunit/phpunit": "7.5.x-dev"
+	}
+}
