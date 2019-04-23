@@ -16,7 +16,7 @@
     },
     "require": {
 	  "php": ">= 5.1.0",
-		"monolog/monolog": "^2.0@dev"
+		"monolog/monolog": "~1.0"
     },
     
     "minimum-stability": "dev",
