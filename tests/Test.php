@@ -5,15 +5,15 @@
  * Time: 4:39 PM
  */
 
-namespace volnix\Monolog\Tests;
+namespace Volnix\Monolog\Tests;
 
 use Monolog\Logger;
-use volnix\Monolog\PDO\Handler;
+use Volnix\Monolog\PDO\Handler;
 use PHPUnit\Framework\TestCase;
 
 class PDOTest extends TestCase {
 
-	const APP_NAME = 'pdo_handler_tests';
+	const APP_NAME = 'tests';
 	/**
 	 * @var null|\PDO $pdo
 	 */
@@ -56,7 +56,7 @@ class PDOTest extends TestCase {
         $this->pdo->exec($create_sql);
 	}
 
-	public function testSimpleError()
+	public function testError()
 	{
         $this->logger->error('This is a test error');
         

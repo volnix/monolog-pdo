@@ -11,7 +11,8 @@
 	],
 	"autoload": {
         "psr-4": {
-            "volnix\\Monolog\\": "src/"
+            "Volnix\\Monolog\\PDO\\": "src/",
+            "Volnix\\Monolog\\PDO\\Tests\\": "tests/"
         }
     },
     "require": {

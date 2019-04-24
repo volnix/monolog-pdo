@@ -1,8 +1,7 @@
 <?php
 
-namespace volnix\Monolog\PDO;
+namespace Volnix\Monolog\PDO;
 
-use Monolog\Logger;
 use Monolog\Handler\AbstractProcessingHandler;
 use PDO;
 
